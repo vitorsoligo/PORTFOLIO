@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Portfolio</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 15px 0;
+        }
+
+        .interface {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .logo img {
+            max-width: 100px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+
+        .btn-contato {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        .topo-do-site {
+            background-color: #fff;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .txt-topo-site {
+            margin-bottom: 20px;
+        }
+
+        .txt-topo-site h1 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .txt-topo-site h2 {
+            font-size: 18px;
+            margin-top: 15px;
+            margin-bottom: 5px;
+        }
+
+        .txt-topo-site p {
+            line-height: 1.6;
+            margin-bottom: 10px;
+        }
+
+        .btn-trimestre {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .btn-trimestre button {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            margin: 0 10px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .btn-trimestre button:hover {
+            background-color: #555;
+        }
+
+        .img-topo-site img {
+            max-width: 100%;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    
+    <header>
+        <div class="interface">
+            <div class="logo">
+                <a href="#">
+                    <img src="images/logo.jpeg" alt="Logo do Portfolio">
+                </a>
+            </div>
+            <nav class="menu-desktop">
+                <ul>
+                    <li><a href="index.html"><button class="btn-menu">Início</button></a></li>
+                    <li><a href="curriculo.html"><button class="btn-menu">Currículo</button></a></li>
+                    <li><a href="ppe.html"><button class="btn-menu">Matérias</button></a></li>
+                </ul>
+            </nav>
+            <div class="btn-trimestre">
+                <a href="matematica.html">
+                    <button>Voltar</button>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="topo-do-site">
+            <div class="interface">
+                <div class="flex">
+                    <div class="txt-topo-site">
+                        <h1>Matemática Primeiro Trimestre</h1>
+                        <h2>Trigonometria - Arcos e Angulos</h2>
+                        <p>Objetivos: Produzir uma trilha dentro do ambiente da escola utilizando os conceitos de Arcos e Ângulos, incluindo todas as instruções e elementos necessários.</p>
+                        <p> Competências desta atividade: c2, h5 e h16</p>  
+                        <p>Este trabalho foi desafiador e exigiu muita atenção e foco, dado o uso de diferentes ferramentas para capturar os ângulos necessários para a atividade. Além disso, a criatividade desempenhou um papel fundamental na elaboração de uma história para o trabalho. </p>
+                        <p>Link para o acesso das atividades:</p>
+                    
+                        <div class="btn-trimestre">
+                            <a href="https://www.youtube.com/watch?v=hOVbRDjjM_o">
+                                <button>Arcos e Angulos</button>
+                            </a>
+                        </div>
+                    </div> <!-- txt-topo-site -->
+                    
+                    <div class="img-topo-site">
+                        <div style="display: flex; justify-content: center;">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/hOVbRDjjM_o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </div> <!-- img-topo-site -->
+                </div><!--flex-->
+            </div><!--interface-->
+        </section><!--topo-do-site-->
+    </main>
+</body>
+</html>

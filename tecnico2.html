@@ -1,0 +1,290 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #007bff;
+            color: white;
+            padding: 20px 0;
+        }
+
+        .interface {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo img {
+            max-width: 150px;
+        }
+
+        nav {
+            flex-grow: 1;
+            text-align: center; /* Centraliza o texto do menu */
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            display: inline-flex; /* Muda para inline-flex para centralizar */
+            gap: 15px;
+        }
+
+        nav ul li {
+            display: inline;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .btn-trimestre {
+            margin-top: 10px;
+        }
+
+        .btn-trimestre button {
+            background-color: #dc3545;
+        }
+
+        .topo-do-site {
+            background-color: white;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+        }
+
+        .flex {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .txt-topo-site {
+            flex: 1;
+            text-align: left;
+            padding: 20px;
+        }
+
+        .img-topo-site {
+            flex: 1;
+            text-align: center;
+        }
+
+        .img-topo-site img {
+            max-width: 100%;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        button, .btn-wireframe {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 10px 0;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn-wireframe:hover, button:hover {
+            background-color: #0056b3;
+        }
+
+        @media only screen and (max-width: 768px) {
+            .flex {
+                flex-direction: column;
+            }
+        }
+
+        h1, h2 {
+            color: #007bff;
+        }
+
+        h1 {
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            margin-top: 15px;
+            margin-bottom: 5px;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+    </style>
+    <title>Portfolio</title>
+</head>
+<body>
+    
+    <header>
+        <div class="interface">
+            <div class="logo">
+                <a href="#">
+                    <img src="images/logo.jpeg" alt="Logo do Portfolio">
+                </a>
+            </div>
+            <nav class="menu-desktop">
+                <ul>
+                    <li><a href="index.html"><button class="btn-menu">Início</button></a></li>
+                    <li><a href="curriculo.html"><button class="btn-menu">Currículo</button></a></li>
+                    <li><a href="ppe.html"><button class="btn-menu">Matérias</button></a></li>
+                </ul>
+            </nav>
+            <div class="btn-trimestre">
+                <a href="tecnico.html">
+                    <button>Voltar</button>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="topo-do-site">
+            <div class="interface">
+                <div class="flex">
+                    <div class="txt-topo-site">
+                        <h1>Modelagem de Sistemas</h1>
+                        <h2>Sala de Aula Invertida</h2>
+                        <p>Atividade prática onde todos deveriam realizar uma aula no formato de sala de aula invertida, explicando sobre a metodologia de desenvolvimento sorteada para a turma.</p>
+                        <p>Habilidades e Competências avaliadas: H3, H5 e H8</p>
+                        <a href="https://www.canva.com/design/DAGEoyeIUjw/c2b8-ZfTpnyomahZIMmkpg/edit?utm_content=DAGEoyeIUjw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">
+                            <button class="btn-wireframe">Atividade Sala de Aula Invertida</button>
+                        </a>
+                        <h2>S.A Wireframe de Alta Fidelidade</h2>
+                        <p>Atividade onde tínhamos que fazer um modelo para o nosso projeto da S.A no site, FIGMA</p>
+                        <p>Habilidades e Competências: H2, H3, H4 e H5</p>
+                        <a href="https://www.figma.com/design/aRoceJUmIVzq7zd7aithXi/Untitled?node-id=0%3A1&t=ZeiJ8E6iA7OAQI5I-1">
+                            <button class="btn-wireframe">Atividade Wireframe</button>
+                        </a>
+                        <h2>S.A Regra de Negócio</h2>
+                        <p>Atividade onde realizamos a criação de regra de negócios do projeto de S.A</p>
+                        <p>Habilidades e Competências avaliadas: H2 H3 H4 E H8</p>
+                        <a href="https://docs.google.com/spreadsheets/d/1kECOjKBVPaBYWQ8yYy8E5bAGQq4VQzYDLff6EH3A1NM/edit?gid=0#gid=0">
+                            <button class="btn-wireframe" style="margin-bottom: 100px;">Atividade Regras de Negócio</button>
+                        </a>
+
+                        <h1>Banco de Dados</h1>
+                        <h2>Lista Modelo Lógico</h2>
+                        <p>Atividade onde era requisitado a realização de uma lista de Modelo Lógico, onde todos deviam realiza-las pelo brmodelo, e enviar uma print de confirmação para cada enunciado</p>
+                        <p>h1 e h2</p>
+                        <a href="https://docs.google.com/document/d/1NtHOSkjT6-c7Jgho6D4UK9PVgtn5WCXNR4RhDWBG9Zc/view">
+                            <button class="btn-wireframe">Atividade Lista Modelo Lógico</button>
+                        </a>
+                        <h2>Gestão de Consultório Médico</h2>
+                        <p>Atividade onde deveriamos realizar uma gestão de consultório médico em todos os modelos aprendidos em aula, sendo esses: Logico e Conceitual.</p>
+                        <p>Habilidades e Competências desta atividade: h1 e h2</p>
+                        <a href="https://www.canva.com/design/DAGMVFRK_8A/w_5wDlVoeT5gZRbUFWsoxw/edit?utm_content=DAGMVFRK_8A&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">
+                            <button class="btn-wireframe">Atividades Consultório Médico</button>
+                        </a>
+
+                        <h2>Pesquisa Normalização de Dados</h2>
+                        <p>Atividade onde era feito uma pesquisa sobre normalização de dados e suas 3 formas normais, para que possamos começar a construir um banco físico.</p>
+                        <p>Habilidades e Competências desta atividade: H3 </p>
+                        <p>h3</p>
+                        <a href="https://docs.google.com/document/d/1GeP0q6DEW9QJl9ISZHSYKOpQrIf37Z3v2DG7dYrHnkM/edit?usp=sharing">
+                            <button class="btn-wireframe">Atividade Pesquisa</button>
+                        </a>
+
+                        <h2>Banco de Dados Biblioteca</h2>
+                        <p>Produção de uma biblioca utilizando sql</p>
+                        <p>h4</p>
+                        <a href="https://docs.google.com/document/d/1OeCogkcu3WH4SXxhQA0IskiPOvRajgGH_iZAHx_lV30/edit?tab=t.0">
+                            <button class="btn-wireframe">Atividade Biblioteca SQL</button>
+                        </a>
+                        
+                        <h2>Left e right join no pg Admin</h2>
+                        <p>Produção de um codigo sql no pg admin utilizando left e right join</p>
+                        <p>h4 e h5</p>
+                        <a href="https://lh3.googleusercontent.com/drive-storage/AJQWtBPOsdGaK9L7yYzwaghERfKkKfoNpnveAP0SnR7izsu-7EbaZlNHMOTP6E464XDOg57nCxP8Mi7o7GbQRlhgLt0mJMoWpH8FJf07yMzkbTfH0sY=w1310-h624">
+                            <button class="btn-wireframe"style="margin-bottom:100px;">Atividade Right e Left sql</button>
+                        </a>
+                        <h1>Desenvolvimento de Sistemas</h1>
+                        <h2>Calculadora em Horas em react</h2>
+                        <p>Produçao do codigo de uma calculadora de horas em react.</p>
+                        <p>h3 e h4</p>
+                        <a href="https://github.com/vitorsoligo/calculadora-react.git">
+                            <button class="btn-wireframe">Atividade Calculadora </button>
+                        </a>
+                        <h2>API-GITHUB</h2>
+                        <p>Produção de uma API pelo github.</p>
+                        <p>h1 e h2</p>
+                        <a href="https://github.com/vitorsoligo/Git-hub-api">
+                            <button class="btn-wireframe">Atividade API </button>
+                            </a>
+
+                        <h2>Trabalho API</h2>
+                        <p>Produção de uma Apresentação sobre API</p>
+                        <p>h3 e h4</p>
+                        <a href="https://www.canva.com/design/DAF-K5ySmt0/PIEeSKFa9egZyJQR46_zTg/view">
+                            <button class="btn-wireframe">Atividade API </button>
+                        </a>
+                        
+                        <h2>Trabalho Biblioteca</h2>
+                        <p>Produção de uma Biblioteca</p>
+                        <p>h4 e h5</p>
+                        <a href="https://drive.google.com/file/d/1TW2lvYdXtFdlMLajv2eMc8ZWH82EKJVd/view">
+                            <button class="btn-wireframe" style="margin-bottom: 100px;">Atividade Biblioteca</button>
+                        </a>
+
+                        <h1>Implantação e Manutenção de Sistemas</h1>
+                        <p>Cenário 1, atividade 1, Implantação de um Sistema Para Gerenciamento de Conteúdo - CMS</p>
+                        <p>h1 a h10</p>
+                        <p>Realizar a implantação de um sistema para gerenciamento de conteúdo na plataforma citada pelo Professor, e entregar o link.</p>
+                        <a href="https://docs.google.com/document/d/1OqDubutldDrpxGsj94ez8f7Hwl6IZ0hO2KH2S30M_5E/edit#heading=h.yppmmx3l3ios">
+                            <button class="btn-wireframe" style="margin-bottom: 100px;">Atividade Cenário 1, Atividade 1, Implantação</button>
+                        </a>
+
+                        <h2>Programação de Aplicativos</h2>
+                        <p>Atividade Express</p>
+                        <p>Realizar um projeto com no minimo duas paginas utilizando o express</p>
+                        <p>H1 E H2</p>
+                        <a href="https://github.com/vitorsoligo/trabalho-karien">
+                            <button class="btn-wireframe">Atividade Express</button>
+                        </a>
+
+                        <h2>Tarefa Inquier e chalk</h2>
+                        <p>realizar um projeto utilizando inquier e chalk</p>
+                        <p>H3 E H4</p>
+                        <a href="https://github.com/vitorsoligo/trabalho-karien-2-..git">
+                            <button class="btn-wireframe"style="margin-bottom: 100px;">Atividade Express</button>
+                        </a>
+
+                        <h1>Teste de sistema</h1>
+                        <p>Pesquisa sobre os assuntos estudados no ano</p>
+                        <p>H1 A H4</p>
+                        <a href="https://www.canva.com/design/DAGWZyg2rHE/wuACWBPlnxid2sxWctGJzw/edit?utm_content=DAGWZyg2rHE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">
+                            <button class="btn-wireframe"style="margin-bottom: 100px;">Atividade Express</button>
+                        </a>
+                    </div> <!-- txt-topo-site -->
+                    <div class="img-topo-site">
+                        <img src="images/Programação.jpg" alt="">
+                    </div> <!-- img-topo-site -->
+                </div><!--flex-->
+            </div><!--interface-->
+        </section><!--topo-do-site-->
+    </main>
+</body>
+</html>
